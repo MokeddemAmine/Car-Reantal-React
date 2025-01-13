@@ -1,0 +1,16 @@
+.dark{
+    .about{
+        background-color: $dark;
+        color:$white;
+        transition: .5s;
+    }
+}
+.about{
+    background-color: #f0f4f8 ;
+    .container{
+        min-height: 620px;
+        img{
+            max-height: 300px;
+        }
+    }
+}

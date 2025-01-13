@@ -1,0 +1,9 @@
+// Override Bootstrap primary color
+$primary: #ffc727;  
+$dark:#111111;
+
+// Import Bootstrap to apply customizations
+@import 'bootstrap/scss/bootstrap';
+@import './components/navbar/Navbar.scss';
+@import './components//hero/Hero.scss';
+@import './components/about/About.scss';

@@ -1,0 +1,16 @@
+
+.link{
+    transition:.3s;
+    &:hover{
+        color:$primary !important;
+        border-bottom:1px solid $primary 
+    }
+}
+.dark nav{
+    transition:.5s;
+    background-color: $dark !important;
+    color:white !important;
+    a{
+        color:white !important;
+    }
+}

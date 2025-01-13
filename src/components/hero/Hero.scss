@@ -1,0 +1,11 @@
+.hero .container{
+    min-height: 620px !important;
+    img{
+        max-height: 600px;
+    }
+}
+.dark .hero{
+    transition: .5s;
+    background-color: #000000 !important;
+    color:white !important;
+}
