@@ -2,13 +2,16 @@ import { useEffect, useState } from "react";
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
 import About from './components/about/About';
-// import AOS files
-import Aos from "aos";
-import 'aos/dist/aos.css';
 import Services from "./components/services/Services";
 import CarList from "./components/CarList/CarList";
 import Testimonial from "./components/testimonials/Testimonial";
 import AppStoreBanner from './components/AppStoreBanner/AppStoreBanner';
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
+
+// import AOS files
+import Aos from "aos";
+import 'aos/dist/aos.css';
 
 function App() {
   // Dark Mode Features 
@@ -42,6 +45,8 @@ function App() {
       <CarList/>
       <Testimonial/>
       <AppStoreBanner/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }

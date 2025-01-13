@@ -1,0 +1,28 @@
+footer{
+    .container{
+        .social-icon{
+            color:$dark;
+            &:hover{
+                transition: .5s;
+                color:$primary !important;
+            }
+        }
+        .link a{
+            transition: .5s;
+            &:hover{
+                color:$primary;
+            }
+        }
+    }
+}
+.dark{
+    footer{
+        background-color: black;
+        color:white;
+        .container{
+            .social-icon{
+                color:$white;
+            }
+        }
+    }
+}
