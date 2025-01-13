@@ -5,6 +5,7 @@ import About from './components/about/About';
 // import AOS files
 import Aos from "aos";
 import 'aos/dist/aos.css';
+import Services from "./components/services/Services";
 
 function App() {
   // Dark Mode Features 
@@ -33,7 +34,8 @@ function App() {
     <div className="App">
       <Navbar theme={theme} setTheme={setTheme}/>
       <Hero theme={theme}/>
-      <About theme={theme}/>
+      <About/>
+      <Services/>
     </div>
   );
 }
