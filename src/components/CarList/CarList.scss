@@ -1,0 +1,30 @@
+.dark{
+    .car-list{
+        background-color: $dark;
+        color:$white;
+        transition: .5s;
+        a{
+            color:$white !important;
+        }
+    }
+}
+.car-list{
+    .car{
+        transition: .5s;
+        &:hover{
+            border:1px solid $primary !important;
+            .image{
+                img{
+                    transform:translateX(3rem);
+                }
+            }
+        }
+        .image{
+            height: 120px;
+            img{
+                transition: .5s;
+                object-fit: contain;
+            }
+        }
+    }
+}

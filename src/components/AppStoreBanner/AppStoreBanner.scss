@@ -1,0 +1,20 @@
+.app-store-banner{
+    .container{
+        min-height: 400px;
+        .app-image{
+            max-width: 150px;
+            @media(min-width:568px){
+                max-width: 120px;
+            }
+            @media(min-width:768px){
+                max-width: 200px;
+            }
+        }
+    }
+}   
+.dark{
+    .app-store-banner{
+        background-color: black;
+        color:$white;
+    }
+}

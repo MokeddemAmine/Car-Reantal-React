@@ -6,6 +6,9 @@ import About from './components/about/About';
 import Aos from "aos";
 import 'aos/dist/aos.css';
 import Services from "./components/services/Services";
+import CarList from "./components/CarList/CarList";
+import Testimonial from "./components/testimonials/Testimonial";
+import AppStoreBanner from './components/AppStoreBanner/AppStoreBanner';
 
 function App() {
   // Dark Mode Features 
@@ -36,6 +39,9 @@ function App() {
       <Hero theme={theme}/>
       <About/>
       <Services/>
+      <CarList/>
+      <Testimonial/>
+      <AppStoreBanner/>
     </div>
   );
 }

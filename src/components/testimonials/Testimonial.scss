@@ -1,0 +1,13 @@
+.testimonial{
+    transition: .5s;
+}
+.dark{
+    .testimonial{
+        background-color: black;
+        color:$white;
+        .card{
+            background-color: $dark;
+            color:$white;
+        }
+    }
+}
